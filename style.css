@@ -61,7 +61,7 @@ a:focus {
   color: green;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 14px;
-  
+  width: 35px;
   
 }
 .navbar-custom .navbar-toggle:focus,
@@ -126,7 +126,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(assets/image3.jpg);
+  background: url(img/image3.jpg);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -306,11 +306,13 @@ body {
 h3 {
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 
 h4 {
   display: flex;
   justify-content: center;
+  font-weight: 500;
 
   
 }
@@ -321,7 +323,8 @@ h4 {
   font-size: 6em;
   display:flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
+  margin-top: -12px;
   
 
 }
@@ -331,7 +334,7 @@ h4 {
   display:flex;
   justify-content: center;
   margin-bottom: 13px;
-  margin-top: -10px;
+  margin-top: -9px;
 
 }
 
@@ -347,8 +350,9 @@ h4 {
   font-size: 6em;
   display:flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   margin-top: -9px;
+
 }
 .fa-camera-retro {
   font-size: 6em;
