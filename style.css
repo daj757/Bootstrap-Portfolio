@@ -49,7 +49,19 @@ a:focus {
   font-weight: 400;
 }
 
+.popup-gallery img {
+  width: 100%;
+  
+}
+#groupiePic {
+  margin-top: 7%;
 
+  
+}
+#managerGif {
+  max-height: 212px;
+
+}
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -312,14 +324,7 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-#skill1 {
-  ;
 
-}
-
-#skill2 {
-  
-}
 
 h3 {
   text-align: center;
@@ -335,7 +340,7 @@ h4 {
   
 }
 
-
+/*Skills icons*/
 
 .fa-html5 {
   font-size: 6em;
@@ -377,9 +382,37 @@ h4 {
   display:flex;
   justify-content: center;
   margin-bottom: 10px;
-  margin-top: -9px;
+  margin-top: -10px;
 
 }
+
+.fa-database {
+   font-size: 6em;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 13px;
+  margin-top: -9px;
+}
+
+.fa-apple {
+  font-size: 7em;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: -17px;
+
+}
+
+.fa-server {
+  font-size: 7em;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: -17px;
+
+}
+
+/*Contact information*/
 
 .fa-linkedin {
   font-size: 6em;
@@ -400,6 +433,7 @@ h4 {
 font-size: 5em;
 
 }
+
 
 .portfolio-box {
   position: relative;
@@ -454,4 +488,30 @@ font-size: 5em;
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.brand-heading {
+  
+  color: white;
+    
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
 }
