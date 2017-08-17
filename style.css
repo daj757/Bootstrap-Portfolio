@@ -440,6 +440,14 @@ h4 {
   margin-top: -22px;
 
 }
+.fa-git {
+  font-size: 7em;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: -3px;
+  margin-left: 17px;
+}
 
 /*Contact information*/
 
