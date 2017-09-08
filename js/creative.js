@@ -1,5 +1,11 @@
 (function($) {
-    "use strict"; // Start of use strict
+
+    var jokes = ["Hide and seek champion... ; since 1958", "Programmer(noun) A machine that turns coffee into code", "Algorithm(noun) Word used by programmers when... they do not want to explain what they did","Q: What is the object-oriented way to become wealthy? <br>A: Inheritance", "I'd like the make the world a better place... but they won't give me the source code", "['hip', 'hip']<br>(hip hip array)"]
+    var joke = jokes[Math.floor(Math.random() * jokes.length)];
+
+    document.getElementById("jokeArea").innerHTML = joke
+
+     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', 'a.page-scroll', function(event) {
